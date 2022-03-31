@@ -11,13 +11,7 @@ body {
 
 .container {
   max-width: 1080px;
-  min-width: 100px;
   margin: 0px auto;
-}
-
-.navbar-bg {
-  padding: 1rem;
-  margin:0;
 }
 
 .dark {
@@ -26,8 +20,9 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
 }
 
 .logo {
@@ -52,42 +47,31 @@ a {
 }
 
 a:hover {
-  color: lightgreen;
+  color: #3882f6;
+}
+
+.nav-links ul {
+  /* text-align: center; */
+  /* padding: 0px 14px; */
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
 li {
-    display: inline;
-}
-
-li a {
-  text-align: center;
-  padding: 0px 14px;
+  display: inline;
 }
 
 .hero {
-  padding-top: 4rem;
-  padding-bottom:4rem;
   display: flex;
-  justify-content:space-between;
-  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 4rem;
 }
 
-.hero-text {
-  width: 30rem;
-}
-
-.hero-text p {
-  color: #e5e7eb;
-  max-width: 30rem;
-}
-
-.placeholder {
-  background-color: gray;
-  width: 30rem;
-  height: 13rem;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.hero img {
+  max-width: 500px;
 }
 
 .btn.primary {
@@ -100,21 +84,28 @@ li a {
   border-radius: 5px;
 }
 
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
 .box {
   border: 3px solid #3882f6;
   border-radius: 10px;
   width: 125px;
   height: 125px;
 }
-.boxes {
-  display:flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
+
+.boxes p {
+  width: 125px;
+  text-align: center;
+  display: flex;
 }
 
 .carousel h1 {
-text-align:center;
-margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .grey {
