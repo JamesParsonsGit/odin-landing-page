@@ -109,6 +109,11 @@ li {
   color: black;
 }
 
+.box img {
+  width:100px;
+  height: 100px;
+}
+
 .carousel h1 {
   text-align: center;
   margin-top: 40px;
