@@ -1,4 +1,4 @@
 # Landing-page
-Home-page of a theoretical website made following The Odin Project
+Basic home-page project for 'The Odin Project' to apply learned HTML and CSS skills
 
 [Live Preview](https://JamesParsonsGit.github.io/landing-page/)
